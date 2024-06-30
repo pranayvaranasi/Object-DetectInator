@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lange="en">
+<head>
+    <link rel = "stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>   
+    <script src = "https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+   <script>
+    var jsonfile = {jsonfile};
+   </script>
+   <style>
+      .img-container{
+        text-align: center;
+      }
+   </style>
+<body>
+    <section>
+        <div  class = "container p-5">
+            <div class = "row">
+                <div class = "col-lg-8 col-md-10 col-sm-12 mx-auto">
+                    <div class = "p-5 bg-white shadow rounded-lg">
+                        <div id="success_alert" class = "alert alert-success" role="alert" style="display:none;"></div>
+<div class = "img-container">    
+    <h3> Object DetectInator </h3>
+    <p> Detect an object in a image/video</p>
+    {% if isimage %}
+        {% if showbutton%}
+            <form action = "/detect" target = "_blank">
+            <img src = "{{ url_for('static',filename=img) }}" alt = "Uploaded image" width = "500" class = 'image'>
+            <button type = "submit" style = "width:200px" class = "btn btn-primary btn-block rounded-pill shadow">Detect Object</button>  
+            </form> 
+        {% else %}
+               <img src = "{{ url_for('static',filename=img) }}" alt = "Detected Image" width = "500">
+            {% endif %}
+    {% else %}
+        {% if showbutton%}
+        <form action = '/detect' target = "_blank">
+        <video src = "{{ img }}" width = "500" controls = "controls" class = "img-container" width="500">  </video>
+        <button type = "submit" style = "width:200px" class = "btn btn-primary btn-block rounded-pill shadow">Detect Object</button>
+        </form>
+        {% else %}
+        <video src = "{{ img }}" width = "500" controls = "controls" class = "img-container" width="500">  </video>
+        {% endif %} 
+
+    {% endif %} 
+</div> 
+                    </div>
+                </div>
+            </section>
+            </body>   
+</html> 

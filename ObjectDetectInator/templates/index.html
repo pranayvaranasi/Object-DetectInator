@@ -1,0 +1,58 @@
+<html>
+<head>
+    <link rel = "stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src = "https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <section>
+        <div class = "container p-5">
+            <div class = "row mb-5 text-center text-white">
+                <div class = "col-lg-10 mx-auto">
+                    <h1 class = "display-4">Object DetectInator</h1>
+                </div>
+            </div>
+        <div class = "row">
+            <div class = "col-lg-8 col-md-10 col-sm-12 mx-auto">
+                <div class = "p-5 bg-white shadow rounded-lg">
+                    <div id = "success_alert" class = "alert alert-success" role="alert" style="display:none"></div>
+                    <div id="upload_data">
+                        <img src="https://res.cloudinary.com/drd8empws/image/upload/v1719215244/Object_DetectInator_logo_wlq4xd.jpg" width="500">
+                        <h4 class="text-center mb-4 text-muted">
+                            Object DetectInator is a web application that detects objects in an image or video.
+                        </h4>
+                        <div id="error_alert" class="alert alert-danger" role="alert" style="display:none"></div>
+                   <form action = '/' method = "POST" enctype="multipart/form-data">
+                        <div class = "custom-file mb-3">
+                            <input type = 'file' name = 'file uploaded' class = "custom-file-input" id = "myFile" value="">
+                            <label class = "custom-file-label" for = 'file uploaded'>Upload Image/Video</label>
+                        </div>
+                        <button type = 'submit' class = "btn btn-primary btn-block rounded-pill shadow">Upload Dataset</button>
+                        
+                    </form>
+                </div>
+                {% if success %}
+                    <p style = "color: green">Uploaded Successfully</p>
+                <form action = "/show_file" target = "_blank">
+                    <input type = 'submit' value = 'Show Image'/>
+                    {% else %}
+                    <form action = "/show_file" target = "_blank">
+                <input type = 'submit' value = 'Show Image'/>
+                {% endif %}
+                              
+                </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+</body>
+                
+                    
+                    
+
+
+
+    
+    
