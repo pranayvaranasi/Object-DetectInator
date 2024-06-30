@@ -1,0 +1,11 @@
+Flask==3.0.3
+Flask-PyMongo==2.3.0
+pandas==2.2.2
+numpy==1.26.4
+Jinja2==3.1.4
+opencv-python==4.10.0.84
+nest-asyncio==1.6.0
+imageai==3.0.3
+pymongo==4.7.3
+keras==3.4.0
+tensorflow==2.16.1
