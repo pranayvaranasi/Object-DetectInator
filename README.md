@@ -78,11 +78,20 @@ Click on the image below for video demonstration 👇
 [![Object Detect Inator demonstration](https://res.cloudinary.com/drd8empws/image/upload/v1719215244/Object_DetectInator_logo_wlq4xd.jpg)](https://youtu.be/UVslmSBn8NI)
 
 
-
-
 # Tools Used : 
 
-![Flask](https://github.com/pranayvaranasi/Object-DetectInator/assets/142153387/c9f08ab3-6179-4d3f-8010-a466e8e76b49) ![OpenCV](https://github.com/pranayvaranasi/Object-DetectInator/assets/142153387/1ae6f603-fadf-47b7-9273-d127232579cd) ![MongoDB](https://github.com/pranayvaranasi/Object-DetectInator/assets/142153387/34e6444d-7c1e-4f04-aefb-0637092c6690) ![YoloV9](https://github.com/pranayvaranasi/Object-DetectInator/assets/142153387/d76d3d9e-cc95-41d0-9063-bb55fd6a69e0) ![Visual Studio Code](https://github.com/pranayvaranasi/Object-DetectInator/assets/142153387/98238cea-4cc4-4911-b3aa-2c108ed526b5) 
+![Flask](https://github.com/pranayvaranasi/Object-DetectInator/assets/142153387/c9f08ab3-6179-4d3f-8010-a466e8e76b49) ![OpenCV](https://github.com/pranayvaranasi/Object-DetectInator/assets/142153387/1ae6f603-fadf-47b7-9273-d127232579cd) ![MongoDB](https://github.com/pranayvaranasi/Object-DetectInator/assets/142153387/34e6444d-7c1e-4f04-aefb-0637092c6690) ![YoloV9](https://github.com/pranayvaranasi/Object-DetectInator/assets/142153387/d76d3d9e-cc95-41d0-9063-bb55fd6a69e0) ![HTML](https://github.com/pranayvaranasi/Object-DetectInator/assets/142153387/d17bde79-ca56-4000-b29a-5fd3c8b70656)
+ ![Visual Studio Code](https://github.com/pranayvaranasi/Object-DetectInator/assets/142153387/98238cea-4cc4-4911-b3aa-2c108ed526b5) 
+
+# Skills
+
+Web Development, Computer Vision, Frontend, Database Management
+
+Note to self :
+
+Press q to stop video
+
+Add current IP to Object DetectInator MongoDB atlas if server timeout
 
 
 
