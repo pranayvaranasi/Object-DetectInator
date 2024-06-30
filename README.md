@@ -73,7 +73,9 @@ Install Tensorflow and TorchVision
      - **Image Metadata:** width and height of the uploaded image.
 # Demonstration 
 
-Detection in images
+Click on the image below for video demonstration 👇
+
+[![Object Detect Inator demonstration](https://res.cloudinary.com/drd8empws/image/upload/v1719215244/Object_DetectInator_logo_wlq4xd.jpg)](https://youtu.be/UVslmSBn8NI)
 
 
 
