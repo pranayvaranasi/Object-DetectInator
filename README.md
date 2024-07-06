@@ -80,7 +80,8 @@ Click on the image below for video demonstration 👇
 
 # Tools Used : 
 
-![Flask](https://github.com/pranayvaranasi/Object-DetectInator/assets/142153387/c9f08ab3-6179-4d3f-8010-a466e8e76b49) ![OpenCV](https://github.com/pranayvaranasi/Object-DetectInator/assets/142153387/1ae6f603-fadf-47b7-9273-d127232579cd) ![MongoDB](https://github.com/pranayvaranasi/Object-DetectInator/assets/142153387/34e6444d-7c1e-4f04-aefb-0637092c6690) ![YoloV9](https://github.com/pranayvaranasi/Object-DetectInator/assets/142153387/d76d3d9e-cc95-41d0-9063-bb55fd6a69e0) ![HTML](https://github.com/pranayvaranasi/Object-DetectInator/assets/142153387/d17bde79-ca56-4000-b29a-5fd3c8b70656)
+![Flask](https://github.com/pranayvaranasi/Object-DetectInator/assets/142153387/c9f08ab3-6179-4d3f-8010-a466e8e76b49) ![Jinja2](https://github.com/pranayvaranasi/Object-DetectInator/assets/142153387/13a90906-8ff9-4399-8219-d116495ca87e)
+ ![OpenCV](https://github.com/pranayvaranasi/Object-DetectInator/assets/142153387/1ae6f603-fadf-47b7-9273-d127232579cd) ![MongoDB](https://github.com/pranayvaranasi/Object-DetectInator/assets/142153387/34e6444d-7c1e-4f04-aefb-0637092c6690) ![YoloV9](https://github.com/pranayvaranasi/Object-DetectInator/assets/142153387/d76d3d9e-cc95-41d0-9063-bb55fd6a69e0) ![HTML](https://github.com/pranayvaranasi/Object-DetectInator/assets/142153387/d17bde79-ca56-4000-b29a-5fd3c8b70656)
  ![Visual Studio Code](https://github.com/pranayvaranasi/Object-DetectInator/assets/142153387/98238cea-4cc4-4911-b3aa-2c108ed526b5) 
 
 # Skills
