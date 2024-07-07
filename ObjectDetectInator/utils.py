@@ -18,7 +18,7 @@ global output, upload, model
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 upload = 'C:/Users/pranay/ObjectDetectInator/static/uploads'
 output = 'C:/Users/pranay/ObjectDetectInator/static/output'
-model = YOLO('yolov9c.pt')
+model = YOLO('yolov10n.pt')
 
 def filetype(filename):
         extension = filename.split('.')[-1] in ('png', 'jpg', 'jpeg', 'gif', 'png', 'webp', 'mp4', 'mov', 'avi')
