@@ -1,5 +1,5 @@
 # Object-DetectInator
-Object DetectInator is a simple web application built with the Flask framework. It lets users upload an image/video and detect the objects in it using the YOLO v9 model. The information is then shown to the user and saved in MongoDB in Json Format.Uploaded images and the output images are saved in the local file. 
+Object DetectInator is a simple web application built with the Flask framework. It lets users upload an image/video and detect the objects in it using the YOLO v10 model. The information is then shown to the user and saved in MongoDB in Json Format.Uploaded images and the output images are saved in the local file. 
 # Project Structure
 ```
 ├── app.py       # contains the Flask app object
@@ -32,9 +32,9 @@ Object DetectInator is a simple web application built with the Flask framework. 
 
     ```pip3 install -r requirements.txt```
 
-Donwload YoloV9c
+Donwload Yolov10n
 
-    ``` wget https://github.com/WongKinYiu/yolov9/releases/download/v0.1/yolov9-c-converted.pt ```
+    ``` wget https://github.com/ultralytics/assets/releases/download/v8.2.0/yolov10n.pt ```
 
 Install Tensorflow and TorchVision
 
@@ -81,7 +81,7 @@ Click on the image below for video demonstration 👇
 # Tools Used : 
 
 ![Flask](https://github.com/pranayvaranasi/Object-DetectInator/assets/142153387/c9f08ab3-6179-4d3f-8010-a466e8e76b49) ![Jinja2](https://github.com/pranayvaranasi/Object-DetectInator/assets/142153387/13a90906-8ff9-4399-8219-d116495ca87e)
- ![OpenCV](https://github.com/pranayvaranasi/Object-DetectInator/assets/142153387/1ae6f603-fadf-47b7-9273-d127232579cd) ![MongoDB](https://github.com/pranayvaranasi/Object-DetectInator/assets/142153387/34e6444d-7c1e-4f04-aefb-0637092c6690) ![YoloV9](https://github.com/pranayvaranasi/Object-DetectInator/assets/142153387/d76d3d9e-cc95-41d0-9063-bb55fd6a69e0) ![HTML](https://github.com/pranayvaranasi/Object-DetectInator/assets/142153387/d17bde79-ca56-4000-b29a-5fd3c8b70656)
+ ![OpenCV](https://github.com/pranayvaranasi/Object-DetectInator/assets/142153387/1ae6f603-fadf-47b7-9273-d127232579cd) ![MongoDB](https://github.com/pranayvaranasi/Object-DetectInator/assets/142153387/34e6444d-7c1e-4f04-aefb-0637092c6690) ![Yolov10](https://github.com/pranayvaranasi/Object-DetectInator/assets/142153387/d76d3d9e-cc95-41d0-9063-bb55fd6a69e0) ![HTML](https://github.com/pranayvaranasi/Object-DetectInator/assets/142153387/d17bde79-ca56-4000-b29a-5fd3c8b70656)
  ![Visual Studio Code](https://github.com/pranayvaranasi/Object-DetectInator/assets/142153387/98238cea-4cc4-4911-b3aa-2c108ed526b5) 
 
 # Skills
