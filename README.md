@@ -40,6 +40,8 @@ Install Tensorflow and TorchVision
 
     ``` pip install tensorflow torchvision```
 
+4.  Set your MongoDB Database in db.py and save
+
 5. Set basic environmental variables
 
     ``` export FLASK_APP= app.py ```
