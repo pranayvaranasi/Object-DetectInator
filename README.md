@@ -89,7 +89,7 @@ Click on the image below for video demonstration 👇
 
 # Skills
 
-Web Development, Computer Vision, Frontend, Backend Database Management
+Web Development, Computer Vision, Frontend, Backend, Database Management
 
 Note to self :
 
